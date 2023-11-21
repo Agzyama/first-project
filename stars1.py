@@ -8,7 +8,7 @@ def massives(x,n):
 f = open("PZ_Mon_v_radial_1__1.dat" , "r")
 f = f.read()
 g = [0 for j in range(len(f))]
-for i in range (len(f)):
+for i in range(len(f)):
     if f[i].isupper():
         g[i] = f[i].lower()
     else:
